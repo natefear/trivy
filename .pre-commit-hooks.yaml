@@ -1,0 +1,5 @@
+- id: trivyfs
+  name: trivyfs
+  entry: trivy fs --exit-code 1
+  language: python
+  pass_filenames: false
